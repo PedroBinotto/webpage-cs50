@@ -1,7 +1,3 @@
-/*
-D1B894
-BCBCBE
-*/
 html {
   font-family: Roboto Thin !important;
   overflow-y: scroll;
@@ -60,9 +56,17 @@ ul li .nav-link:hover {
   border-color: #766F57;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 961px) {
   .main {
     width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .main {
+    width: 95%;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;

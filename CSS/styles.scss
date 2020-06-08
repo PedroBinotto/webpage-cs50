@@ -7,11 +7,6 @@ $color-section1: #485167;
 $color-section2: #A9754F;
 $color-section3: #766F57;
 
-/*
-D1B894
-BCBCBE
-*/
-
 html {
 	font-family: Roboto Thin !important;
 	overflow-y: scroll;
@@ -79,7 +74,7 @@ ul {
 	border-color: $color-section3;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 961px) {
 	.main {
 		width: 70%;
 		margin: 0 auto;
@@ -87,6 +82,16 @@ ul {
 		margin-bottom: 10px;
 	}
 }
+
+@media only screen and (max-width: 960px) {
+	.main {
+		width: 95%;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
 
 #header {
 	background-color: #f1f1f1;
