@@ -16,16 +16,12 @@ var footer = document.getElementById("footer");
 var stickyBottom = window.innerHeight - footer.offsetTop;
 
 window.onload = function() {myFooter()};
-console.log(stickyBottom);
 
 function myFooter() {
-  console.log("**");
   if (stickyBottom > 0) {
-    console.log("Maior>");
     footer.classList.add("stickyBottom");
   }
   else {
-    console.log("Menor<");
     footer.classList.remove("stickyBottom");
   }
 }

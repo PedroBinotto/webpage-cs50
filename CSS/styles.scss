@@ -5,7 +5,12 @@ $main-background: white;
 $block-color: #2e2e2e;
 $color-section1: #485167;
 $color-section2: #A9754F;
-$color-section3: #BCBCBE;
+$color-section3: #766F57;
+
+/*
+D1B894
+BCBCBE
+*/
 
 html {
 	font-family: Roboto Thin !important;
@@ -31,6 +36,7 @@ ul {
 .bg-dark {
 	background-color: $block-color !important;
 	border-bottom: 2px solid #595959;
+	opacity: 0.95;
 }
 
 .block {
@@ -145,7 +151,6 @@ ul {
 	font-size: 125%;
 	width: 44px;
 	text-align: center;
-	text-decoration: none;
 	background: White;
 	color: $block-color;
 }
@@ -158,6 +163,7 @@ ul {
 .fa-envelope-o {
 	background: $block-color;
 	color: White;
+	text-decoration: none !important;
 }
 
 ::selection {
