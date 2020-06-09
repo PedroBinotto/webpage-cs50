@@ -36,16 +36,18 @@ ul {
 
 .block {
 	line-height: 1.1;
-	:not(table) {
-		padding: 8px;
-		text-align: justify;
-	}
 	color: $text;
 	margin: 5px;
 	margin-left: -9px;
 	margin-right: -9px;
 	font-size: 140%;
 	font-family: Roboto !important;
+	p {
+		text-align: justify;
+	}
+	:not(table) {
+		padding: 8px;
+	}
 	table {
 		width: 100%;
 		text-align: center;

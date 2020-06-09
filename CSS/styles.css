@@ -29,9 +29,11 @@ ul li .nav-link:hover {
   font-size: 140%;
   font-family: Roboto !important;
 }
+.block p, .color3 p, .color2 p, .color1 p, .block-solid p {
+  text-align: justify;
+}
 .block :not(table), .color3 :not(table), .color2 :not(table), .color1 :not(table), .block-solid :not(table) {
   padding: 8px;
-  text-align: justify;
 }
 .block table, .color3 table, .color2 table, .color1 table, .block-solid table {
   width: 100%;
