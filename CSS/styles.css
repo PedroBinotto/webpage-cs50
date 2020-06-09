@@ -27,7 +27,8 @@ ul li .nav-link:hover {
   margin-left: -9px;
   margin-right: -9px;
   font-size: 140%;
-  font-family: Roboto !important;
+  font-family: Roboto, sans-serif !important;
+  font-weight: normal;
 }
 .block p, .color3 p, .color2 p, .color1 p, .block-solid p {
   text-align: justify;
