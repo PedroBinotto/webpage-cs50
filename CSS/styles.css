@@ -28,10 +28,6 @@ ul li .nav-link:hover {
   margin-right: -9px;
   font-size: 140%;
   font-family: Roboto Thin !important;
-  font-weight: bold;
-  /*
-  font-size: 22px;
-  */
 }
 .block :not(table), .color3 :not(table), .color2 :not(table), .color1 :not(table), .block-solid :not(table) {
   padding: 8px;
