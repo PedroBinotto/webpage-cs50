@@ -1,6 +1,6 @@
 html {
   font-family: Roboto, sans-serif !important;
-  font-weight: 200;
+  font-weight: lighter;
   overflow-y: scroll;
 }
 
@@ -29,7 +29,7 @@ ul li .nav-link:hover {
   margin-right: -9px;
   font-size: 140%;
   font-family: Roboto, sans-serif !important;
-  font-weight: 200;
+  font-weight: lighter;
 }
 .block p, .color3 p, .color2 p, .color1 p, .block-solid p {
   text-align: justify;
@@ -102,7 +102,7 @@ ul li .nav-link:hover {
 }
 #header {
   background-color: #f1f1f1;
-  font-family: Roboto Thin;
+  font-family: Roboto, sans-serif !important;
   font-weight: bolder;
   padding: 15px;
   text-align: left;
@@ -157,7 +157,7 @@ ul li .nav-link:hover {
   text-align: center;
   color: #f1f1f1;
   padding: 2px;
-  font-family: Roboto Thin;
+  font-family: Roboto, sans-serif !important;
   font-size: 90%;
 }
 
