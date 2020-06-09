@@ -36,7 +36,9 @@ ul {
 
 .block {
 	line-height: 1.1;
-	padding: 8px;
+	:not(table) {
+		padding: 8px;
+	}
 	color: $text;
 	margin: 5px;
 	margin-left: -9px;
@@ -44,6 +46,29 @@ ul {
 	font-size: 22px;
 	font-family: Roboto Thin !important;
 	font-weight: bold;
+
+	table {
+		width: 100%;
+		text-align: center;
+		background-color: $block-color;
+		table-layout: fixed;
+		border-collapse: collapse;
+		tr {
+			padding: 4px;
+			th {
+				font-weight: bold;
+				border-bottom: 1px solid #f1f1f1;
+				background-color: $color-section1;
+				margin-top: 3px;
+				margin-bottom: 3px;
+			}
+			td {
+				border-top: 1px solid #f1f1f1;
+				margin-top: 3px;
+				margin-bottom: 3px;
+			}
+		}
+	}
 }
 
 .block-solid {

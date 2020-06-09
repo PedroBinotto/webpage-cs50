@@ -22,7 +22,6 @@ ul li .nav-link:hover {
 
 .block, .color3, .color2, .color1, .block-solid {
   line-height: 1.1;
-  padding: 8px;
   color: white;
   margin: 5px;
   margin-left: -9px;
@@ -30,6 +29,31 @@ ul li .nav-link:hover {
   font-size: 22px;
   font-family: Roboto Thin !important;
   font-weight: bold;
+}
+.block :not(table), .color3 :not(table), .color2 :not(table), .color1 :not(table), .block-solid :not(table) {
+  padding: 8px;
+}
+.block table, .color3 table, .color2 table, .color1 table, .block-solid table {
+  width: 100%;
+  text-align: center;
+  background-color: #2e2e2e;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.block table tr, .color3 table tr, .color2 table tr, .color1 table tr, .block-solid table tr {
+  padding: 4px;
+}
+.block table tr th, .color3 table tr th, .color2 table tr th, .color1 table tr th, .block-solid table tr th {
+  font-weight: bold;
+  border-bottom: 1px solid #f1f1f1;
+  background-color: #485167;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.block table tr td, .color3 table tr td, .color2 table tr td, .color1 table tr td, .block-solid table tr td {
+  border-top: 1px solid #f1f1f1;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 .block-solid {
