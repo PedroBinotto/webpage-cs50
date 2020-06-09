@@ -8,7 +8,8 @@ $color-section2: #A9754F;
 $color-section3: #766F57;
 
 html {
-	font-family: Roboto !important;
+	font-family: Roboto, sans-serif !important;
+	font-weight: 200;
 	overflow-y: scroll;
 }
 
@@ -42,7 +43,7 @@ ul {
 	margin-right: -9px;
 	font-size: 140%;
 	font-family: Roboto, sans-serif !important;
-	font-weight: normal;
+	font-weight: 200;
 	p {
 		text-align: justify;
 	}

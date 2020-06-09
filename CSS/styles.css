@@ -1,5 +1,6 @@
 html {
-  font-family: Roboto !important;
+  font-family: Roboto, sans-serif !important;
+  font-weight: 200;
   overflow-y: scroll;
 }
 
@@ -28,7 +29,7 @@ ul li .nav-link:hover {
   margin-right: -9px;
   font-size: 140%;
   font-family: Roboto, sans-serif !important;
-  font-weight: normal;
+  font-weight: 200;
 }
 .block p, .color3 p, .color2 p, .color1 p, .block-solid p {
   text-align: justify;
