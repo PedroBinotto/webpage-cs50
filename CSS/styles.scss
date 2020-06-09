@@ -1,16 +1,13 @@
-$main-accent: navy;
-$main-color: DodgerBlue;
 $text: white;
 $main-background: white;
 $block-color: #2e2e2e;
 $color-section1: #485167;
 $color-section2: #A9754F;
 $color-section3: #766F57;
-$main-font: Roboto, sans-serif !important;
+$main-font: Roboto, sans-serif, !important;
 
 html {
 	font-family: $main-font;
-	font-weight: lighter;
 	overflow-y: scroll;
 }
 
@@ -44,7 +41,6 @@ ul {
 	margin-right: -9px;
 	font-size: 140%;
 	font-family: $main-font;
-	font-weight: lighter;
 	p {
 		text-align: justify;
 	}
@@ -180,7 +176,7 @@ ul {
 }
 
 #fixed-background {
-	background-image: url(../img/NYC.jpg);
+	background-image: url(../img/coffee.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom;
