@@ -1,5 +1,5 @@
 html {
-  font-family: Roboto Thin !important;
+  font-family: Roboto !important;
   overflow-y: scroll;
 }
 
@@ -27,10 +27,11 @@ ul li .nav-link:hover {
   margin-left: -9px;
   margin-right: -9px;
   font-size: 140%;
-  font-family: Roboto Thin !important;
+  font-family: Roboto !important;
 }
 .block :not(table), .color3 :not(table), .color2 :not(table), .color1 :not(table), .block-solid :not(table) {
   padding: 8px;
+  text-align: justify;
 }
 .block table, .color3 table, .color2 table, .color1 table, .block-solid table {
   width: 100%;

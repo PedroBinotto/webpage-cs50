@@ -38,13 +38,14 @@ ul {
 	line-height: 1.1;
 	:not(table) {
 		padding: 8px;
+		text-align: justify;
 	}
 	color: $text;
 	margin: 5px;
 	margin-left: -9px;
 	margin-right: -9px;
 	font-size: 140%;
-	font-family: Roboto Thin !important;
+	font-family: Roboto !important;
 	table {
 		width: 100%;
 		text-align: center;
